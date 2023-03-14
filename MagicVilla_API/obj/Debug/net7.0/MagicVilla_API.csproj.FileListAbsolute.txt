@@ -7,6 +7,7 @@ C:\workspace\webApisNet7\MagicVilla\MagicVilla_API\bin\Debug\net7.0\MagicVilla_A
 C:\workspace\webApisNet7\MagicVilla\MagicVilla_API\bin\Debug\net7.0\MagicVilla_API.pdb
 C:\workspace\webApisNet7\MagicVilla\MagicVilla_API\bin\Debug\net7.0\Azure.Core.dll
 C:\workspace\webApisNet7\MagicVilla\MagicVilla_API\bin\Debug\net7.0\Azure.Identity.dll
+C:\workspace\webApisNet7\MagicVilla\MagicVilla_API\bin\Debug\net7.0\Humanizer.dll
 C:\workspace\webApisNet7\MagicVilla\MagicVilla_API\bin\Debug\net7.0\Microsoft.AspNetCore.JsonPatch.dll
 C:\workspace\webApisNet7\MagicVilla\MagicVilla_API\bin\Debug\net7.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
 C:\workspace\webApisNet7\MagicVilla\MagicVilla_API\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
@@ -14,8 +15,10 @@ C:\workspace\webApisNet7\MagicVilla\MagicVilla_API\bin\Debug\net7.0\Microsoft.Bc
 C:\workspace\webApisNet7\MagicVilla\MagicVilla_API\bin\Debug\net7.0\Microsoft.Data.SqlClient.dll
 C:\workspace\webApisNet7\MagicVilla\MagicVilla_API\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
 C:\workspace\webApisNet7\MagicVilla\MagicVilla_API\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\workspace\webApisNet7\MagicVilla\MagicVilla_API\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
 C:\workspace\webApisNet7\MagicVilla\MagicVilla_API\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
 C:\workspace\webApisNet7\MagicVilla\MagicVilla_API\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\workspace\webApisNet7\MagicVilla\MagicVilla_API\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
 C:\workspace\webApisNet7\MagicVilla\MagicVilla_API\bin\Debug\net7.0\Microsoft.Identity.Client.dll
 C:\workspace\webApisNet7\MagicVilla\MagicVilla_API\bin\Debug\net7.0\Microsoft.Identity.Client.Extensions.Msal.dll
 C:\workspace\webApisNet7\MagicVilla\MagicVilla_API\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
@@ -27,11 +30,13 @@ C:\workspace\webApisNet7\MagicVilla\MagicVilla_API\bin\Debug\net7.0\Microsoft.Id
 C:\workspace\webApisNet7\MagicVilla\MagicVilla_API\bin\Debug\net7.0\Microsoft.OpenApi.dll
 C:\workspace\webApisNet7\MagicVilla\MagicVilla_API\bin\Debug\net7.0\Microsoft.SqlServer.Server.dll
 C:\workspace\webApisNet7\MagicVilla\MagicVilla_API\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+C:\workspace\webApisNet7\MagicVilla\MagicVilla_API\bin\Debug\net7.0\Mono.TextTemplating.dll
 C:\workspace\webApisNet7\MagicVilla\MagicVilla_API\bin\Debug\net7.0\Newtonsoft.Json.dll
 C:\workspace\webApisNet7\MagicVilla\MagicVilla_API\bin\Debug\net7.0\Newtonsoft.Json.Bson.dll
 C:\workspace\webApisNet7\MagicVilla\MagicVilla_API\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\workspace\webApisNet7\MagicVilla\MagicVilla_API\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\workspace\webApisNet7\MagicVilla\MagicVilla_API\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\workspace\webApisNet7\MagicVilla\MagicVilla_API\bin\Debug\net7.0\System.CodeDom.dll
 C:\workspace\webApisNet7\MagicVilla\MagicVilla_API\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
 C:\workspace\webApisNet7\MagicVilla\MagicVilla_API\bin\Debug\net7.0\System.Drawing.Common.dll
 C:\workspace\webApisNet7\MagicVilla\MagicVilla_API\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
@@ -73,8 +78,5 @@ C:\workspace\webApisNet7\MagicVilla\MagicVilla_API\obj\Debug\net7.0\refint\Magic
 C:\workspace\webApisNet7\MagicVilla\MagicVilla_API\obj\Debug\net7.0\MagicVilla_API.pdb
 C:\workspace\webApisNet7\MagicVilla\MagicVilla_API\obj\Debug\net7.0\MagicVilla_API.genruntimeconfig.cache
 C:\workspace\webApisNet7\MagicVilla\MagicVilla_API\obj\Debug\net7.0\ref\MagicVilla_API.dll
-C:\workspace\webApisNet7\MagicVilla\MagicVilla_API\bin\Debug\net7.0\Humanizer.dll
-C:\workspace\webApisNet7\MagicVilla\MagicVilla_API\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
-C:\workspace\webApisNet7\MagicVilla\MagicVilla_API\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
-C:\workspace\webApisNet7\MagicVilla\MagicVilla_API\bin\Debug\net7.0\Mono.TextTemplating.dll
-C:\workspace\webApisNet7\MagicVilla\MagicVilla_API\bin\Debug\net7.0\System.CodeDom.dll
+C:\workspace\webApisNet7\MagicVilla\MagicVilla_API\bin\Debug\net7.0\AutoMapper.dll
+C:\workspace\webApisNet7\MagicVilla\MagicVilla_API\bin\Debug\net7.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
