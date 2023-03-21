@@ -5,6 +5,8 @@ C:\workspace\webApisNet7\MagicVilla\MagicVilla_API\bin\Debug\net7.0\MagicVilla_A
 C:\workspace\webApisNet7\MagicVilla\MagicVilla_API\bin\Debug\net7.0\MagicVilla_API.runtimeconfig.json
 C:\workspace\webApisNet7\MagicVilla\MagicVilla_API\bin\Debug\net7.0\MagicVilla_API.dll
 C:\workspace\webApisNet7\MagicVilla\MagicVilla_API\bin\Debug\net7.0\MagicVilla_API.pdb
+C:\workspace\webApisNet7\MagicVilla\MagicVilla_API\bin\Debug\net7.0\AutoMapper.dll
+C:\workspace\webApisNet7\MagicVilla\MagicVilla_API\bin\Debug\net7.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
 C:\workspace\webApisNet7\MagicVilla\MagicVilla_API\bin\Debug\net7.0\Azure.Core.dll
 C:\workspace\webApisNet7\MagicVilla\MagicVilla_API\bin\Debug\net7.0\Azure.Identity.dll
 C:\workspace\webApisNet7\MagicVilla\MagicVilla_API\bin\Debug\net7.0\Humanizer.dll
@@ -78,5 +80,3 @@ C:\workspace\webApisNet7\MagicVilla\MagicVilla_API\obj\Debug\net7.0\refint\Magic
 C:\workspace\webApisNet7\MagicVilla\MagicVilla_API\obj\Debug\net7.0\MagicVilla_API.pdb
 C:\workspace\webApisNet7\MagicVilla\MagicVilla_API\obj\Debug\net7.0\MagicVilla_API.genruntimeconfig.cache
 C:\workspace\webApisNet7\MagicVilla\MagicVilla_API\obj\Debug\net7.0\ref\MagicVilla_API.dll
-C:\workspace\webApisNet7\MagicVilla\MagicVilla_API\bin\Debug\net7.0\AutoMapper.dll
-C:\workspace\webApisNet7\MagicVilla\MagicVilla_API\bin\Debug\net7.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
