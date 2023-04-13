@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using MagicVilla_Utilidad;
 using MagicVilla_Web.Models;
 using MagicVilla_Web.Models.Dto;
 using MagicVilla_Web.Models.ViewModel;
@@ -27,7 +28,7 @@ namespace MagicVilla_Web.Controllers
         {
             List<NumeroVillaDto> numeroVillaList = new();
 
-            var response = await _numeroVillaService.ObtenerTodos<APIResponse>();
+            var response = await _numeroVillaService.ObtenerTodos<APIResponse>(HttpContext.Session.GetString(DS.SessionToken));
 
             if(response != null && response.IsExitoso)
             {
@@ -40,7 +41,7 @@ namespace MagicVilla_Web.Controllers
         public async Task<ActionResult> CrearNumeroVilla()
         {
             NumeroVillaViewModel numeroVillaVM = new();
-            var response = await _villasService.ObtenerTodos<APIResponse>();
+            var response = await _villasService.ObtenerTodos<APIResponse>(HttpContext.Session.GetString(DS.SessionToken));
 
             if(response != null && response.IsExitoso)
             {
@@ -61,7 +62,7 @@ namespace MagicVilla_Web.Controllers
         {
             if(ModelState.IsValid)
             {
-                var response = await _numeroVillaService.Crear<APIResponse>(modelo.NumeroVilla);
+                var response = await _numeroVillaService.Crear<APIResponse>(modelo.NumeroVilla, HttpContext.Session.GetString(DS.SessionToken));
                 if (response != null && response.IsExitoso)
                 {
                     TempData["exitoso"] = "Numero Villa Creada Exitosamente";
@@ -76,7 +77,7 @@ namespace MagicVilla_Web.Controllers
                 }
             }
 
-            var res = await _villasService.ObtenerTodos<APIResponse>();
+            var res = await _villasService.ObtenerTodos<APIResponse>(HttpContext.Session.GetString(DS.SessionToken));
             if (res != null && res.IsExitoso)
             {
                 modelo.VillaList = JsonConvert.DeserializeObject<List<VillaDto>>(Convert.ToString(res.Resultado))
@@ -92,7 +93,7 @@ namespace MagicVilla_Web.Controllers
         public async Task<ActionResult> ActualizarNumeroVilla(int villaNo)
         {
             NumeroVillaUpdateViewModel numeroVillaVM = new();
-            var response = await _numeroVillaService.Obtener<APIResponse>(villaNo);
+            var response = await _numeroVillaService.Obtener<APIResponse>(villaNo, HttpContext.Session.GetString(DS.SessionToken));
 
             if (response != null && response.IsExitoso)
             {
@@ -100,7 +101,7 @@ namespace MagicVilla_Web.Controllers
                 numeroVillaVM.NumeroVilla = _mapper.Map<NumeroVillaUpdateDto>(model);   
             }
 
-            response = await _villasService.ObtenerTodos<APIResponse>();
+            response = await _villasService.ObtenerTodos<APIResponse>(HttpContext.Session.GetString(DS.SessionToken));
             if (response != null && response.IsExitoso)
             {
                 numeroVillaVM.VillaList = JsonConvert.DeserializeObject<List<VillaDto>>(Convert.ToString(response.Resultado))
@@ -121,7 +122,7 @@ namespace MagicVilla_Web.Controllers
         {
             if (ModelState.IsValid)
             {
-                var response = await _numeroVillaService.Actualizar<APIResponse>(modelo.NumeroVilla);
+                var response = await _numeroVillaService.Actualizar<APIResponse>(modelo.NumeroVilla, HttpContext.Session.GetString(DS.SessionToken));
                 if (response != null && response.IsExitoso)
                 {
                     TempData["exitoso"] = "Numero Villa Actualizada Exitosamente";
@@ -136,7 +137,7 @@ namespace MagicVilla_Web.Controllers
                 }
             }
 
-            var res = await _villasService.ObtenerTodos<APIResponse>();
+            var res = await _villasService.ObtenerTodos<APIResponse>(HttpContext.Session.GetString(DS.SessionToken));
             if (res != null && res.IsExitoso)
             {
                 modelo.VillaList = JsonConvert.DeserializeObject<List<VillaDto>>(Convert.ToString(res.Resultado))
@@ -152,7 +153,7 @@ namespace MagicVilla_Web.Controllers
         public async Task<ActionResult> RemoverNumeroVilla(int villaNo)
         {
             NumeroVillaDeleteViewModel numeroVillaVM = new();
-            var response = await _numeroVillaService.Obtener<APIResponse>(villaNo);
+            var response = await _numeroVillaService.Obtener<APIResponse>(villaNo, HttpContext.Session.GetString(DS.SessionToken));
 
             if (response != null && response.IsExitoso)
             {
@@ -160,7 +161,7 @@ namespace MagicVilla_Web.Controllers
                 numeroVillaVM.NumeroVilla = model;
             }
 
-            response = await _villasService.ObtenerTodos<APIResponse>();
+            response = await _villasService.ObtenerTodos<APIResponse>(HttpContext.Session.GetString(DS.SessionToken));
             if (response != null && response.IsExitoso)
             {
                 numeroVillaVM.VillaList = JsonConvert.DeserializeObject<List<VillaDto>>(Convert.ToString(response.Resultado))
@@ -179,7 +180,7 @@ namespace MagicVilla_Web.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> RemoverNumeroVilla(NumeroVillaDeleteViewModel modelo)
         {
-            var response = await _numeroVillaService.Remover<APIResponse>(modelo.NumeroVilla.VillaNo);
+            var response = await _numeroVillaService.Remover<APIResponse>(modelo.NumeroVilla.VillaNo, HttpContext.Session.GetString(DS.SessionToken));
             if(response != null && response.IsExitoso)
             {
                 TempData["exitoso"] = "Numero Villa Eliminado Exitosamente";
