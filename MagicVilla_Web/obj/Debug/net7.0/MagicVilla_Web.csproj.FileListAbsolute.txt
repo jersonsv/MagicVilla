@@ -30,6 +30,10 @@ C:\workspace\webApisNet7\MagicVilla\MagicVilla_Web\bin\Debug\net7.0\Microsoft.Co
 C:\workspace\webApisNet7\MagicVilla\MagicVilla_Web\bin\Debug\net7.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
 C:\workspace\webApisNet7\MagicVilla\MagicVilla_Web\bin\Debug\net7.0\Microsoft.DiaSymReader.dll
 C:\workspace\webApisNet7\MagicVilla\MagicVilla_Web\bin\Debug\net7.0\Microsoft.DotNet.Scaffolding.Shared.dll
+C:\workspace\webApisNet7\MagicVilla\MagicVilla_Web\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+C:\workspace\webApisNet7\MagicVilla\MagicVilla_Web\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\workspace\webApisNet7\MagicVilla\MagicVilla_Web\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+C:\workspace\webApisNet7\MagicVilla\MagicVilla_Web\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
 C:\workspace\webApisNet7\MagicVilla\MagicVilla_Web\bin\Debug\net7.0\Microsoft.NET.StringTools.dll
 C:\workspace\webApisNet7\MagicVilla\MagicVilla_Web\bin\Debug\net7.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
 C:\workspace\webApisNet7\MagicVilla\MagicVilla_Web\bin\Debug\net7.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
@@ -56,6 +60,7 @@ C:\workspace\webApisNet7\MagicVilla\MagicVilla_Web\bin\Debug\net7.0\System.Compo
 C:\workspace\webApisNet7\MagicVilla\MagicVilla_Web\bin\Debug\net7.0\System.Composition.TypedParts.dll
 C:\workspace\webApisNet7\MagicVilla\MagicVilla_Web\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
 C:\workspace\webApisNet7\MagicVilla\MagicVilla_Web\bin\Debug\net7.0\System.Drawing.Common.dll
+C:\workspace\webApisNet7\MagicVilla\MagicVilla_Web\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
 C:\workspace\webApisNet7\MagicVilla\MagicVilla_Web\bin\Debug\net7.0\System.Reflection.MetadataLoadContext.dll
 C:\workspace\webApisNet7\MagicVilla\MagicVilla_Web\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
 C:\workspace\webApisNet7\MagicVilla\MagicVilla_Web\bin\Debug\net7.0\System.Security.Permissions.dll
